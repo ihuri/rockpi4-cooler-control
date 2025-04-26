@@ -1,0 +1,14 @@
+
+[Unit]
+Description=Controle automático do cooler Rock Pi 4
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/ihuri/scripts/cooler_control.py
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
