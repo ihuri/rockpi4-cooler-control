@@ -27,6 +27,10 @@ sudo apt install gpiod -y
 Rock Pi 5V (Pino 2) ── (+) Cooler ── [Coletor] 2N2222 [Emissor] ── Rock Pi GND (Pino 6)
 Base do 2N2222 ── Resistor 1kΩ ── Rock Pi GPIO (Pino 18 - GPIO156)
 
+## Diagrama Esquemático
+
+![Diagrama Elétrico](diagrama_eletrico.png)
+
 ## Instalação do Script
 1. Copie os arquivos para `/home/ihuri/scripts/`.
 2. Torne o script executável:
@@ -76,7 +80,3 @@ Fonte: https://wiki.radxa.com/Rockpi4/hardware/gpio
 | 158         |           |           | GPIO4_D6| 37    |    | 38    | GPIO4_A6| I2S1_SDI  |           | 134         |
 | GND         |           |           |         | 39    |    | 40    | GPIO4_A7| I2S1_SDO  |           | 135         |
 
-
-## Diagrama Esquemático
-
-![Diagrama Elétrico](diagrama_eletrico.png)
