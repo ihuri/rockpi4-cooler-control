@@ -75,3 +75,8 @@ Fonte: https://wiki.radxa.com/Rockpi4/hardware/gpio
 | 133         |           | I2S1_LRCK_TX|GPIO4_A5| 35    |    | 36    | GPIO4_A4| I2S1_LRCK_RX|         | 132         |
 | 158         |           |           | GPIO4_D6| 37    |    | 38    | GPIO4_A6| I2S1_SDI  |           | 134         |
 | GND         |           |           |         | 39    |    | 40    | GPIO4_A7| I2S1_SDO  |           | 135         |
+
+
+## Diagrama Esquemático
+
+![Diagrama Elétrico](diagrama_eletrico.png)
